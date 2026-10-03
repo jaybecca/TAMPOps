@@ -1,0 +1,101 @@
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    padding:20px 0;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo-icon{
+
+    color:var(--primary);
+
+    font-size:1.6rem;
+
+}
+
+.logo-text{
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    color:var(--dark);
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    color:var(--dark);
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+.nav-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    transition:var(--transition);
+
+}
+
+.nav-btn:hover{
+
+    background:var(--secondary);
+
+}

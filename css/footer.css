@@ -1,0 +1,7 @@
+/* Footer component styles kept separate for maintainability. */
+.site-footer{border-top:1px solid var(--line)}
+.footer-logo{max-width:190px;height:auto;display:block}
+.footer-grid{align-items:start}
+.footer-grid a{transition:color .2s ease}
+.footer-grid a:hover{color:#71d4ff}
+.footer-bottom{border-top:1px solid var(--line)}

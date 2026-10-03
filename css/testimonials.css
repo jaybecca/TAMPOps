@@ -1,0 +1,5 @@
+/* Testimonial component styles. */
+.testimonial-card{transition:transform .25s ease,border-color .25s ease}
+.testimonial-card:hover{transform:translateY(-4px)}
+.testimonial-top img{width:58px;height:58px;border-radius:50%;object-fit:cover}
+.testimonial-top{display:flex;align-items:center;justify-content:space-between;gap:16px}

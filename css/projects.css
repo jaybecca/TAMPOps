@@ -1,0 +1,5 @@
+/* Project grid enhancements. Main visual system remains in style.css. */
+.project-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.project-card:hover{transform:translateY(-5px)}
+.project-filters{display:flex;gap:10px;flex-wrap:wrap}
+.project-art img{max-width:100%;height:auto;display:block}

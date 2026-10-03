@@ -1,0 +1,91 @@
+/* ===================================
+Animations
+=================================== */
+
+*{
+
+transition:.3s ease;
+
+}
+
+.hero-image img:hover{
+
+transform:scale(1.04);
+
+}
+
+.logo:hover{
+
+transform:scale(1.05);
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-3px);
+
+}
+
+.btn-secondary:hover{
+
+transform:translateY(-3px);
+
+}
+
+.nav-links a:hover{
+
+letter-spacing:.5px;
+
+}
+
+.service-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.service-card img{
+
+    transition:.5s;
+
+}
+
+.service-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.service-card i{
+
+    transition:.3s;
+
+}
+
+.service-card:hover i{
+
+    color:var(--secondary);
+
+}
+
+.why-card{
+
+    transition:.4s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+
+}
+
+.why-card:hover i{
+
+    transform:rotate(8deg) scale(1.1);
+
+}

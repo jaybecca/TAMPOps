@@ -1,0 +1,27 @@
+/* ==========================================
+   GOOGLE FONT VARIABLES
+========================================== */
+
+:root{
+
+    --primary:#2563EB;
+
+    --secondary:#7C3AED;
+
+    --accent:#F97316;
+
+    --dark:#0F172A;
+
+    --light:#F8FAFC;
+
+    --white:#FFFFFF;
+
+    --gray:#64748B;
+
+    --shadow:0 15px 40px rgba(0,0,0,.10);
+
+    --transition:.35s ease;
+
+    --radius:14px;
+
+}
